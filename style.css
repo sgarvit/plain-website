@@ -1,0 +1,1478 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Vollkorn SC", serif;
+}
+
+.container-1 .sub-container-1 {
+  width: 100%;
+  height: 10%;
+  background-color: rgba(168, 168, 168, 0.537);
+  padding: 10px 20px 10px 20px;
+  display: flex;
+  position: fixed;
+  justify-content: space-between;
+}
+.container-1 .sub-container-1 .logo {
+  display: flex;
+  justify-content: space-evenly;
+}
+.container-1 .sub-container-1 .logo img {
+  width: 2vw;
+  height: 6vh;
+  margin-right: 10px;
+  border-radius: 10px;
+  box-shadow: 2px 2px rgba(0, 0, 0, 0.207);
+}
+.container-1 .sub-container-1 .logo h1 {
+  margin-top: 5px;
+  font-size: 1.7rem;
+  font-weight: bold;
+  width: 100%;
+}
+.container-1 .sub-container-1 .navigation ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+  padding: 10px;
+}
+.container-1 .sub-container-1 .navigation ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.2rem;
+  padding: 5px;
+  border-radius: 5px;
+  font-weight: 600;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.container-1 .sub-container-1 .navigation ul li a:hover {
+  color: darkslateblue;
+  transition: all 0.3s ease;
+  border-bottom: 5px solid black;
+}
+#active-home {
+  color: darkslateblue;
+}
+
+.container-2 .sub-container-2 {
+  background-image: url(Images/bg-1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.container-2 .sub-container-2 .container-2-details {
+  padding: 10px;
+  width: 50%;
+  padding-top: 5rem;
+  padding-left: 4rem;
+}
+.container-2 .sub-container-2 .container-2-details h1 {
+  color: #000;
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+.container-2 .sub-container-2 .container-2-details b {
+  color: darkslateblue;
+}
+.container-2 .sub-container-2 .container-2-details p {
+  color: rgb(77, 77, 77);
+  font-size: 1rem;
+  padding: 10px;
+}
+.container-2 .sub-container-2 .container-2-details button {
+  width: 35%;
+  margin-top: 20px;
+  padding: 19px;
+  border: none;
+  border-radius: 30px 0 15px 15px;
+  font-size: 1rem;
+  font-weight: 500;
+  background-color: darkslateblue;
+  color: #fff;
+}
+.container-2 .sub-container-2 .container-2-details button:hover {
+  background-color: rgb(45, 38, 89);
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+
+.container-3 .sub-container-3 {
+  text-align: center;
+  width: 100%;
+  margin-top: 30px;
+  padding: 10px;
+}
+.container-3 .sub-container-3 h3 {
+  color: darkslateblue;
+}
+
+.container-4 .sub-container-4 {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  padding: 30px;
+}
+.container-4 .sub-container-4 .card-1 {
+  border: 2px dotted rgba(0, 0, 0, 0.452);
+  width: 25%;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+.container-4 .sub-container-4 .card-1:hover {
+  box-shadow: 2px 2px 3px 4px rgba(195, 195, 195, 0.363);
+  transition: all 0.2s ease-in-out;
+}
+.container-4 .sub-container-4 .card-1 .image {
+  position: relative;
+  width: 25%;
+  margin-left: 1rem;
+  margin-top: 2rem;
+  text-align: center;
+}
+.container-4 .sub-container-4 .card-1 .image img {
+  width: 4vw;
+  margin-left: 8.5rem;
+  z-index: -1;
+}
+#hexagon-dark {
+  position: absolute;
+  margin-top: -5.7rem;
+  width: 7vw;
+  margin-left: 4.1rem;
+}
+.container-4 .sub-container-4 .card-1 .card-1-details {
+  margin-top: 2rem;
+}
+.container-4 .sub-container-4 .card-1 .card-1-details h2 {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.container-4 .sub-container-4 .card-1 .card-1-details p {
+  color: gray;
+  font-size: 0.9rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  font-weight: 300px;
+}
+
+.container-4 .sub-container-4 .card-2 {
+  border: 2px dotted rgba(0, 0, 0, 0.452);
+  width: 25%;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+.container-4 .sub-container-4 .card-2:hover {
+  box-shadow: 2px 2px 3px 4px rgba(195, 195, 195, 0.363);
+  transition: all 0.2s ease-in-out;
+}
+.container-4 .sub-container-4 .card-2 .image-2 {
+  position: relative;
+  width: 25%;
+  margin-left: 1rem;
+  margin-top: 2rem;
+  text-align: center;
+}
+.container-4 .sub-container-4 .card-2 .image-2 img {
+  width: 4vw;
+  margin-left: 8.5rem;
+  z-index: -1;
+}
+#hexagon-dark-2 {
+  position: absolute;
+  margin-top: -5.7rem;
+  width: 7vw;
+  margin-left: 4.3rem;
+}
+.container-4 .sub-container-4 .card-2 .card-2-details {
+  margin-top: 2rem;
+}
+.container-4 .sub-container-4 .card-2 .card-2-details h2 {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.container-4 .sub-container-4 .card-2 .card-2-details p {
+  color: gray;
+  font-size: 0.9rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  font-weight: 300px;
+}
+
+.container-4 .sub-container-4 .card-3 {
+  border: 2px dotted rgba(0, 0, 0, 0.452);
+  width: 25%;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+.container-4 .sub-container-4 .card-3:hover {
+  box-shadow: 2px 2px 3px 4px rgba(195, 195, 195, 0.363);
+  transition: all 0.2s ease-in-out;
+}
+.container-4 .sub-container-4 .card-3 .image-3 {
+  position: relative;
+  width: 25%;
+  margin-left: 1rem;
+  margin-top: 2rem;
+  text-align: center;
+}
+.container-4 .sub-container-4 .card-3 .image-3 img {
+  width: 4vw;
+  margin-left: 8.5rem;
+  z-index: -1;
+}
+#hexagon-dark-3 {
+  position: absolute;
+  margin-top: -5.7rem;
+  width: 7vw;
+  margin-left: 4.3rem;
+}
+.container-4 .sub-container-4 .card-3 .card-3-details {
+  margin-top: 2rem;
+}
+.container-4 .sub-container-4 .card-3 .card-3-details h2 {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.container-4 .sub-container-4 .card-3 .card-3-details p {
+  color: gray;
+  font-size: 0.9rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  font-weight: 300px;
+}
+
+.container-5 .sub-container-5 {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+  padding-bottom: 20px;
+  width: 100%;
+}
+.container-5 .sub-container-5 .container-5-image {
+  margin-top: 20px;
+  margin-left: 5rem;
+}
+.container-5 .sub-container-5 .container-5-image img {
+  width: 40vw;
+}
+.container-5 .sub-container-5 .container-5-details {
+  margin-left: 2rem;
+}
+.container-5 .sub-container-5 .container-5-details h3 {
+  color: darkslateblue;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+.container-5 .sub-container-5 .container-5-details h2 {
+  color: rgb(57, 57, 57);
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+.container-5 .sub-container-5 .container-5-details p {
+  color: gray;
+}
+.container-5 .sub-container-5 .container-5-details .achivement-1 {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px;
+  margin-top: 1rem;
+}
+.container-5 .sub-container-5 .container-5-details .achivement-1 img {
+  width: 5vw;
+  margin-top: -1rem;
+}
+
+.container-5 .sub-container-5 .container-5-details .achivement-2 {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px;
+  margin-top: 1rem;
+}
+.container-5 .sub-container-5 .container-5-details .achivement-2 img {
+  width: 5vw;
+  margin-top: -1rem;
+}
+
+.container-5 .sub-container-5 .container-5-details .achivement-3 {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px;
+  margin-top: 1rem;
+}
+.container-5 .sub-container-5 .container-5-details .achivement-3 img {
+  width: 5vw;
+  margin-top: -1rem;
+}
+
+.container-6 .sub-container-6 {
+  text-align: center;
+  width: 100%;
+  margin-top: 30px;
+  padding: 10px;
+}
+.container-6 .sub-container-6 h3 {
+  color: darkslateblue;
+  font-size: 1rem;
+}
+
+.container-7 .sub-container-7 {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  padding: 30px;
+}
+.container-7 .sub-container-7 .container-7-card-1 {
+  border: 2px dotted rgba(0, 0, 0, 0.452);
+  width: 25%;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+.container-7 .sub-container-7 .container-7-card-1:hover {
+  box-shadow: 2px 2px 3px 4px rgba(195, 195, 195, 0.363);
+  transition: all 0.2s ease-in-out;
+  border: hidden;
+  background-color: rgb(219, 213, 255);
+}
+.container-7 .sub-container-7 .container-7-card-1 .container-7-image {
+  position: relative;
+  width: 25%;
+  margin-left: 1rem;
+  margin-top: 2rem;
+  text-align: center;
+}
+.container-7 .sub-container-7 .container-7-card-1 .container-7-image img {
+  width: 4vw;
+  margin-left: 8.2rem;
+  z-index: -1;
+}
+#hexagon-dark-7 {
+  position: absolute;
+  margin-top: -5.7rem;
+  width: 7vw;
+  margin-left: 4.1rem;
+}
+.container-7 .sub-container-7 .container-7-card-1 .container-7-card-1-details {
+  margin-top: 2rem;
+}
+.container-7
+  .sub-container-7
+  .container-7-card-1
+  .container-7-card-1-details
+  h2 {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.container-7
+  .sub-container-7
+  .container-7-card-1
+  .container-7-card-1-details
+  p {
+  color: gray;
+  font-size: 0.9rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  font-weight: 300px;
+}
+
+.container-7 .sub-container-7 .container-7-card-2 {
+  border: 2px dotted rgba(0, 0, 0, 0.452);
+  width: 25%;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+.container-7 .sub-container-7 .container-7-card-2:hover {
+  box-shadow: 2px 2px 3px 4px rgba(195, 195, 195, 0.363);
+  transition: all 0.2s ease-in-out;
+  background-color: rgb(219, 213, 255);
+  border: hidden;
+}
+.container-7 .sub-container-7 .container-7-card-2 .container-7-image-2 {
+  position: relative;
+  width: 25%;
+  margin-left: 1rem;
+  margin-top: 2rem;
+  text-align: center;
+}
+.container-7 .sub-container-7 .container-7-card-2 .container-7-image-2 img {
+  width: 4vw;
+  margin-left: 8.3rem;
+  z-index: -1;
+}
+#hexagon-dark-7-2 {
+  position: absolute;
+  margin-top: -5.7rem;
+  width: 7vw;
+  margin-left: 4.1rem;
+}
+.container-7 .sub-container-7 .container-7-card-2 .container-7-card-2-details {
+  margin-top: 2rem;
+}
+.container-7
+  .sub-container-7
+  .container-7-card-2
+  .container-7-card-2-details
+  h2 {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.container-7
+  .sub-container-7
+  .container-7-card-2
+  .container-7-card-2-details
+  p {
+  color: gray;
+  font-size: 0.9rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  font-weight: 300px;
+}
+
+.container-7 .sub-container-7 .container-7-card-3 {
+  border: 2px dotted rgba(0, 0, 0, 0.452);
+  width: 25%;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+.container-7 .sub-container-7 .container-7-card-3:hover {
+  box-shadow: 2px 2px 3px 4px rgba(195, 195, 195, 0.363);
+  transition: all 0.2s ease-in-out;
+  background-color: rgb(219, 213, 255);
+  border: hidden;
+}
+.container-7 .sub-container-7 .container-7-card-3 .container-7-image-3 {
+  position: relative;
+  width: 25%;
+  margin-left: 1rem;
+  margin-top: 2rem;
+  text-align: center;
+}
+.container-7 .sub-container-7 .container-7-card-3 .container-7-image-3 img {
+  width: 4vw;
+  margin-left: 8.5rem;
+  z-index: -1;
+}
+#hexagon-dark-7-3 {
+  position: absolute;
+  margin-top: -5.7rem;
+  width: 7vw;
+  margin-left: 4.1rem;
+}
+.container-7 .sub-container-7 .container-7-card-3 .container-7-card-3-details {
+  margin-top: 2rem;
+}
+.container-7
+  .sub-container-7
+  .container-7-card-3
+  .container-7-card-3-details
+  h2 {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.container-7
+  .sub-container-7
+  .container-7-card-3
+  .container-7-card-3-details
+  p {
+  color: gray;
+  font-size: 0.9rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  font-weight: 300px;
+}
+
+.container-8 .sub-container-8 {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  padding: 30px;
+}
+.container-8 .sub-container-8 .container-8-card-1 {
+  border: 2px dotted rgba(0, 0, 0, 0.452);
+  width: 25%;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+.container-8 .sub-container-8 .container-8-card-1:hover {
+  box-shadow: 2px 2px 3px 4px rgba(195, 195, 195, 0.363);
+  border: hidden;
+  transition: all 0.2s ease-in-out;
+  background-color: rgb(219, 213, 255);
+}
+.container-8 .sub-container-8 .container-8-card-1 .container-8-image {
+  position: relative;
+  width: 25%;
+  margin-left: 1rem;
+  margin-top: 2rem;
+  text-align: center;
+}
+.container-8 .sub-container-8 .container-8-card-1 .container-8-image img {
+  width: 4vw;
+  margin-left: 8.2rem;
+  z-index: -1;
+}
+#hexagon-dark-8 {
+  position: absolute;
+  margin-top: -5.7rem;
+  width: 7vw;
+  margin-left: 4.1rem;
+}
+.container-8 .sub-container-8 .container-8-card-1 .container-8-card-1-details {
+  margin-top: 2rem;
+}
+.container-8
+  .sub-container-8
+  .container-8-card-1
+  .container-8-card-1-details
+  h2 {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.container-8
+  .sub-container-8
+  .container-8-card-1
+  .container-8-card-1-details
+  p {
+  color: gray;
+  font-size: 0.9rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  font-weight: 300px;
+}
+
+.container-8 .sub-container-8 .container-8-card-2 {
+  border: 2px dotted rgba(0, 0, 0, 0.452);
+  width: 25%;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+.container-8 .sub-container-8 .container-8-card-2:hover {
+  box-shadow: 2px 2px 3px 4px rgba(195, 195, 195, 0.363);
+  border: hidden;
+  transition: all 0.2s ease-in-out;
+  background-color: rgb(219, 213, 255);
+}
+.container-8 .sub-container-8 .container-8-card-2 .container-8-image-2 {
+  position: relative;
+  width: 25%;
+  margin-left: 1rem;
+  margin-top: 2rem;
+  text-align: center;
+}
+.container-8 .sub-container-8 .container-8-card-2 .container-8-image-2 img {
+  width: 4vw;
+  margin-left: 8.2rem;
+  z-index: -1;
+}
+#hexagon-dark-8-2 {
+  position: absolute;
+  margin-top: -5.7rem;
+  width: 7vw;
+  margin-left: 4.1rem;
+}
+.container-8 .sub-container-8 .container-8-card-2 .container-8-card-2-details {
+  margin-top: 2rem;
+}
+.container-8
+  .sub-container-8
+  .container-8-card-2
+  .container-8-card-2-details
+  h2 {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.container-8
+  .sub-container-8
+  .container-8-card-2
+  .container-8-card-2-details
+  p {
+  color: gray;
+  font-size: 0.9rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  font-weight: 300px;
+}
+
+.container-8 .sub-container-8 .container-8-card-3 {
+  border: 2px dotted rgba(0, 0, 0, 0.452);
+  width: 25%;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+.container-8 .sub-container-8 .container-8-card-3:hover {
+  box-shadow: 2px 2px 3px 4px rgba(195, 195, 195, 0.363);
+  transition: all 0.2s ease-in-out;
+  border: hidden;
+  background-color: rgb(219, 213, 255);
+}
+.container-8 .sub-container-8 .container-8-card-3 .container-8-image-3 {
+  position: relative;
+  width: 25%;
+  margin-left: 1rem;
+  margin-top: 2rem;
+  text-align: center;
+}
+.container-8 .sub-container-8 .container-8-card-3 .container-8-image-3 img {
+  width: 4vw;
+  margin-left: 8.2rem;
+  z-index: -1;
+}
+#hexagon-dark-8-3 {
+  position: absolute;
+  margin-top: -5.7rem;
+  width: 7vw;
+  margin-left: 4.1rem;
+}
+.container-8 .sub-container-8 .container-8-card-3 .container-8-card-3-details {
+  margin-top: 2rem;
+}
+.container-8
+  .sub-container-8
+  .container-8-card-3
+  .container-8-card-3-details
+  h2 {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.container-8
+  .sub-container-8
+  .container-8-card-3
+  .container-8-card-3-details
+  p {
+  color: gray;
+  font-size: 0.9rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  font-weight: 300px;
+}
+
+.container-9 .sub-container-9 {
+  text-align: center;
+  width: 100%;
+  margin-top: 50px;
+  padding: 10px;
+}
+.container-9 .sub-container-9 h3 {
+  color: darkslateblue;
+  font-size: 1rem;
+}
+
+.container-10 .sub-container-10 {
+  margin-top: 5rem;
+  overflow-x: auto;
+  background-color: rgba(221, 221, 221, 0.474);
+  display: flex;
+  margin-bottom: 5rem;
+  justify-content: space-between;
+  padding-left: 5rem;
+  scroll-behavior: smooth;
+  padding-right: 5rem;
+  width: 100%;
+}
+.container-10 .sub-container-10 .container-10-card-1 {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  width: 22%;
+  background-color: rgb(219, 219, 219);
+  border-radius: 10px;
+}
+.container-10 .sub-container-10 .container-10-card-1:hover {
+  box-shadow: 2px 2px 5px 2px rgba(212, 212, 212, 0.39);
+  background-color: #fff;
+  transition: all 0.5s ease-in-out;
+}
+.container-10 .sub-container-10 .container-10-card-1 img {
+  width: 20vw;
+}
+.container-10 .sub-container-10 .container-10-card-1 h2 {
+  margin-left: 2rem;
+  font-size: 1.5rem;
+  margin-top: 2rem;
+}
+.container-10 .sub-container-10 .container-10-card-1 p {
+  color: rgb(55, 54, 54);
+  margin-left: 2.2rem;
+  font-size: 1rem;
+  margin-bottom: 2rem;
+}
+
+.container-10 .sub-container-10 .container-10-card-2 {
+  margin-left: 5rem;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  width: 26%;
+  background-color: rgb(219, 219, 219);
+  border-radius: 10px;
+}
+.container-10 .sub-container-10 .container-10-card-2:hover {
+  box-shadow: 2px 2px 5px 2px rgba(212, 212, 212, 0.39);
+  background-color: #fff;
+  transition: all 0.5s ease-in-out;
+}
+.container-10 .sub-container-10 .container-10-card-2 img {
+  width: 20vw;
+}
+.container-10 .sub-container-10 .container-10-card-2 h2 {
+  margin-left: 2rem;
+  font-size: 1.5rem;
+  margin-top: 2rem;
+}
+.container-10 .sub-container-10 .container-10-card-2 p {
+  color: rgb(55, 54, 54);
+  margin-left: 2.2rem;
+  font-size: 1rem;
+  margin-bottom: 2rem;
+}
+
+.container-10 .sub-container-10 .container-10-card-3 {
+  margin-left: 5rem;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  width: 22%;
+  background-color: rgb(219, 219, 219);
+  border-radius: 10px;
+}
+.container-10 .sub-container-10 .container-10-card-3:hover {
+  box-shadow: 2px 2px 5px 2px rgba(212, 212, 212, 0.39);
+  background-color: #fff;
+  transition: all 0.5s ease-in-out;
+}
+.container-10 .sub-container-10 .container-10-card-3 img {
+  width: 20vw;
+}
+.container-10 .sub-container-10 .container-10-card-3 h2 {
+  margin-left: 2rem;
+  font-size: 1.5rem;
+  margin-top: 2rem;
+}
+.container-10 .sub-container-10 .container-10-card-3 p {
+  color: rgb(55, 54, 54);
+  margin-left: 2.2rem;
+  font-size: 1rem;
+  margin-bottom: 2rem;
+}
+
+.container-10 .sub-container-10 .container-10-card-4 {
+  margin-left: 5rem;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  width: 22%;
+  background-color: rgb(219, 219, 219);
+  border-radius: 10px;
+}
+.container-10 .sub-container-10 .container-10-card-4:hover {
+  box-shadow: 2px 2px 5px 2px rgba(212, 212, 212, 0.39);
+  transition: all 0.5s ease-in-out;
+  background-color: #fff;
+}
+.container-10 .sub-container-10 .container-10-card-4 img {
+  width: 20vw;
+}
+.container-10 .sub-container-10 .container-10-card-4 h2 {
+  margin-left: 2rem;
+  font-size: 1.5rem;
+  margin-top: 2rem;
+}
+.container-10 .sub-container-10 .container-10-card-4 p {
+  color: rgb(55, 54, 54);
+  margin-left: 2.2rem;
+  font-size: 1rem;
+  margin-bottom: 2rem;
+}
+
+.container-10 .sub-container-10 .container-10-card-5 {
+  margin-left: 5rem;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  width: 22%;
+  background-color: rgb(219, 219, 219);
+  border-radius: 10px;
+}
+.container-10 .sub-container-10 .container-10-card-5:hover {
+  box-shadow: 2px 2px 5px 2px rgba(212, 212, 212, 0.39);
+  transition: all 0.5s ease-in-out;
+  background-color: #fff;
+}
+.container-10 .sub-container-10 .container-10-card-5 img {
+  width: 20vw;
+}
+.container-10 .sub-container-10 .container-10-card-5 h2 {
+  margin-left: 2rem;
+  font-size: 1.5rem;
+  margin-top: 2rem;
+}
+.container-10 .sub-container-10 .container-10-card-5 p {
+  color: rgb(55, 54, 54);
+  margin-left: 2.2rem;
+  font-size: 1rem;
+  margin-bottom: 2rem;
+}
+
+.container-11 .sub-container-11 {
+  text-align: center;
+  width: 100%;
+  margin-top: 50px;
+  padding: 10px;
+}
+.container-11 .sub-container-11 h3 {
+  color: darkslateblue;
+  font-size: 1rem;
+}
+.container-11 .sub-container-11 .btn {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5rem;
+  margin-top: 3rem;
+}
+#month {
+  padding: 10px;
+  width: 7vw;
+  height: 7vh;
+  border: none;
+  border-radius: 30px 0 0 30px;
+  color: white;
+  background-color: darkslateblue;
+  font-weight: 500;
+}
+#month:hover {
+  background-color: rgb(48, 40, 95);
+}
+#year {
+  padding: 10px;
+  font-weight: 500;
+  border: none;
+  border-radius: 0 30px 30px 0;
+  width: 7vw;
+  background-color: rgb(230, 230, 230);
+  height: 7vh;
+}
+#year:hover {
+  color: white;
+  background-color: darkslateblue;
+  transition: all 0.2s ease;
+}
+
+.container-12 .sub-container-12 {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+  width: 100%;
+  margin-bottom: 5rem;
+}
+.container-12 .sub-container-12 .container-12-card-1 {
+  text-align: center;
+  border: 2px double rgba(0, 0, 0, 0.13);
+  padding: 10px;
+  border-radius: 5px;
+  padding-bottom: 2rem;
+  width: 20rem;
+}
+.container-12 .sub-container-12 .container-12-card-1 .standard-icon {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.container-12 .sub-container-12 .container-12-card-1 .standard-icon h2 {
+  color: #fff;
+  font-size: 1rem;
+  margin-top: 2.5rem;
+}
+.container-12 .sub-container-12 .container-12-card-1 .standard-icon img {
+  position: absolute;
+  width: 7vw;
+  z-index: -1;
+}
+.container-12 .sub-container-12 .container-12-card-1 .standard-details {
+  margin-top: 3rem;
+}
+.container-12 .sub-container-12 .container-12-card-1 .standard-details h1 {
+  font-weight: 300;
+  margin-bottom: 1rem;
+}
+.container-12 .sub-container-12 .container-12-card-1 .standard-details p {
+  margin-bottom: 2rem;
+}
+.container-12 .sub-container-12 .container-12-card-1 .standard-details button {
+  padding: 10px;
+  border: none;
+  background-color: darkslateblue;
+  border-radius: 5px;
+  color: #fff;
+}
+.container-12
+  .sub-container-12
+  .container-12-card-1
+  .standard-details
+  button:hover {
+  background-color: rgb(49, 43, 93);
+}
+
+.container-12 .sub-container-12 .container-12-card-2 {
+  text-align: center;
+  border: 2px double rgba(93, 31, 31, 0.451);
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: -2rem;
+  padding-bottom: 2rem;
+  width: 20rem;
+}
+.container-12 .sub-container-12 .container-12-card-2 .basic-icon {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.container-12 .sub-container-12 .container-12-card-2 .basic-icon h2 {
+  color: #fff;
+  font-size: 1rem;
+  margin-top: 2.5rem;
+}
+.container-12 .sub-container-12 .container-12-card-2 .basic-icon img {
+  position: absolute;
+  width: 7vw;
+  z-index: -1;
+}
+.container-12 .sub-container-12 .container-12-card-2 .basic-details {
+  margin-top: 3rem;
+}
+.container-12 .sub-container-12 .container-12-card-2 .basic-details h1 {
+  font-weight: 300;
+  margin-bottom: 1rem;
+}
+.container-12 .sub-container-12 .container-12-card-2 .basic-details p {
+  margin-bottom: 2rem;
+}
+.container-12 .sub-container-12 .container-12-card-2 .basic-details button {
+  padding: 10px;
+  border: none;
+  background-color: darkslateblue;
+  border-radius: 5px;
+  color: #fff;
+}
+.container-12
+  .sub-container-12
+  .container-12-card-2
+  .basic-details
+  button:hover {
+  background-color: rgb(49, 43, 93);
+}
+
+.container-12 .sub-container-12 .container-12-card-3 {
+  text-align: center;
+  border: 2px double rgba(0, 0, 0, 0.162);
+  padding: 10px;
+  border-radius: 5px;
+  padding-bottom: 2rem;
+  width: 20rem;
+}
+.container-12 .sub-container-12 .container-12-card-3 .premium-icon {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.container-12 .sub-container-12 .container-12-card-3 .premium-icon h2 {
+  color: #fff;
+  font-size: 1rem;
+  margin-top: 2.5rem;
+}
+.container-12 .sub-container-12 .container-12-card-3 .premium-icon img {
+  position: absolute;
+  width: 7vw;
+  z-index: -1;
+}
+.container-12 .sub-container-12 .container-12-card-3 .premium-details {
+  margin-top: 3rem;
+}
+.container-12 .sub-container-12 .container-12-card-3 .premium-details h1 {
+  font-weight: 300;
+  margin-bottom: 1rem;
+}
+.container-12 .sub-container-12 .container-12-card-3 .premium-details p {
+  margin-bottom: 2rem;
+}
+.container-12 .sub-container-12 .container-12-card-3 .premium-details button {
+  padding: 10px;
+  border: none;
+  background-color: darkslateblue;
+  border-radius: 5px;
+  color: #fff;
+}
+.container-12
+  .sub-container-12
+  .container-12-card-3
+  .premium-details
+  button:hover {
+  background-color: rgb(49, 43, 93);
+}
+
+.container-13 .sub-container-13 {
+  text-align: center;
+  width: 100%;
+  margin-top: 50px;
+  padding: 10px;
+}
+.container-13 .sub-container-13 h3 {
+  color: darkslateblue;
+  font-size: 1rem;
+}
+
+.container-14 .sub-container-14 {
+  margin-top: 30px;
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  padding: 2rem;
+}
+.container-14 .sub-container-14 .container-14-card-1 {
+  border: 1px solid rgba(128, 128, 128, 0.247);
+  border-radius: 10px;
+}
+.container-14 .sub-container-14 .container-14-card-1 .profile-image img {
+  width: 20vw;
+  border-radius: 10px 10px 0 0;
+  background-image: url(Images/bg-2.png);
+  background-size: cover;
+}
+.container-14 .sub-container-14 .container-14-card-1 .card-1-details {
+  padding-left: 1rem;
+  padding-bottom: 1rem;
+}
+.container-14 .sub-container-14 .container-14-card-1 .card-1-details p {
+  color: gray;
+}
+
+.container-14 .sub-container-14 .container-14-card-2 {
+  border: 1px solid rgba(128, 128, 128, 0.247);
+  border-radius: 10px;
+}
+.container-14 .sub-container-14 .container-14-card-2 .profile-image-2 img {
+  width: 20vw;
+  border-radius: 10px 10px 0 0;
+  background-image: url(Images/bg-2.png);
+  background-size: cover;
+}
+.container-14 .sub-container-14 .container-14-card-2 .card-2-details {
+  padding-left: 1rem;
+  padding-bottom: 1rem;
+}
+.container-14 .sub-container-14 .container-14-card-2 .card-2-details p {
+  color: gray;
+}
+
+.container-14 .sub-container-14 .container-14-card-3 {
+  border: 1px solid rgba(128, 128, 128, 0.247);
+  border-radius: 10px;
+}
+.container-14 .sub-container-14 .container-14-card-3 .profile-image-3 img {
+  width: 20vw;
+  border-radius: 10px 10px 0 0;
+  background-image: url(Images/bg-2.png);
+  background-size: cover;
+}
+.container-14 .sub-container-14 .container-14-card-3 .card-3-details {
+  padding-left: 1rem;
+  padding-bottom: 1rem;
+}
+.container-14 .sub-container-14 .container-14-card-3 .card-3-details p {
+  color: gray;
+}
+
+.container-15 .sub-container-15 {
+  text-align: center;
+  width: 100%;
+  margin-top: 50px;
+  padding: 10px;
+}
+.container-15 .sub-container-15 h3 {
+  color: darkslateblue;
+  font-size: 1rem;
+}
+
+.container-16 .sub-container-16 {
+  width: 100%;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+.container-16 .sub-container-16 .container-16-card-1 {
+  background-color: rgba(250, 235, 215, 0.378);
+  border-radius: 0.5rem;
+  width: 20.1vw;
+}
+.container-16 .sub-container-16 .container-16-card-1:hover {
+  box-shadow: 2px 2px 5px 2px rgb(152, 152, 152);
+  transition: all 0.3s ease-in-out;
+}
+.container-16 .sub-container-16 .container-16-card-1 .container-16-image img {
+  width: 20vw;
+  border: none;
+  border-radius: 0.5rem 0.5rem 0 0;
+  background-image: url(Images/bg-2.png);
+}
+.container-16 .sub-container-16 .container-16-card-1 .card-1-details {
+  padding-left: 1rem;
+  padding-bottom: 0.5rem;
+  padding-top: 0.5rem;
+  padding-right: 1rem;
+}
+.container-16
+  .sub-container-16
+  .container-16-card-1
+  .card-1-details
+  .container-16-name {
+  display: flex;
+  justify-content: space-between;
+}
+.container-16
+  .sub-container-16
+  .container-16-card-1
+  .card-1-details
+  .container-16-name
+  p {
+  color: gray;
+  font-size: 0.8rem;
+}
+.container-16 .sub-container-16 .container-16-card-1 .card-1-details h2 {
+  font-size: 1rem;
+  margin-top: 0.5rem;
+  font-weight: 500;
+  padding-left: 0.5rem;
+}
+.container-16 .sub-container-16 .container-16-card-1 .card-1-details p {
+  color: gray;
+  font-size: 0.7rem;
+  margin-top: 0.5rem;
+  padding-left: 0.5rem;
+}
+
+.container-16 .sub-container-16 .container-16-card-2 {
+  background-color: rgba(250, 235, 215, 0.378);
+  border-radius: 0.5rem;
+  width: 20.1vw;
+}
+.container-16 .sub-container-16 .container-16-card-2:hover {
+  box-shadow: 2px 2px 5px 2px rgb(152, 152, 152);
+  transition: all 0.3s ease-in-out;
+}
+.container-16 .sub-container-16 .container-16-card-2 .container-16-image-2 img {
+  width: 20vw;
+  border: none;
+  height: 29vh;
+  border-radius: 0.5rem 0.5rem 0 0;
+  background-image: url(Images/bg-2.png);
+}
+.container-16 .sub-container-16 .container-16-card-2 .card-2-details {
+  padding-left: 1rem;
+  padding-bottom: 0.5rem;
+  padding-top: 0.5rem;
+  padding-right: 1rem;
+}
+.container-16
+  .sub-container-16
+  .container-16-card-2
+  .card-2-details
+  .container-16-name-2 {
+  display: flex;
+  justify-content: space-between;
+}
+.container-16
+  .sub-container-16
+  .container-16-card-2
+  .card-2-details
+  .container-16-name-2
+  p {
+  color: gray;
+  font-size: 0.8rem;
+}
+.container-16 .sub-container-16 .container-16-card-2 .card-2-details h2 {
+  font-size: 1rem;
+  margin-top: 0.5rem;
+  font-weight: 500;
+  padding-left: 0.5rem;
+}
+.container-16 .sub-container-16 .container-16-card-2 .card-2-details p {
+  color: gray;
+  font-size: 0.7rem;
+  margin-top: 0.5rem;
+  padding-left: 0.5rem;
+}
+
+.container-16 .sub-container-16 .container-16-card-3 {
+  background-color: rgba(250, 235, 215, 0.378);
+  border-radius: 0.5rem;
+  width: 20.1vw;
+}
+.container-16 .sub-container-16 .container-16-card-3:hover {
+  box-shadow: 2px 2px 5px 2px rgb(152, 152, 152);
+  transition: all 0.3s ease-in-out;
+}
+.container-16 .sub-container-16 .container-16-card-3 .container-16-image-3 img {
+  width: 20vw;
+  border: none;
+  border-radius: 0.5rem 0.5rem 0 0;
+  background-image: url(Images/bg-2.png);
+}
+.container-16 .sub-container-16 .container-16-card-3 .card-3-details {
+  padding-left: 1rem;
+  padding-bottom: 0.5rem;
+  padding-top: 0.5rem;
+  padding-right: 1rem;
+}
+.container-16
+  .sub-container-16
+  .container-16-card-3
+  .card-3-details
+  .container-16-name-3 {
+  display: flex;
+  justify-content: space-between;
+}
+.container-16
+  .sub-container-16
+  .container-16-card-3
+  .card-3-details
+  .container-16-name-3
+  p {
+  color: gray;
+  font-size: 0.8rem;
+}
+.container-16 .sub-container-16 .container-16-card-3 .card-3-details h2 {
+  font-size: 1rem;
+  margin-top: 0.5rem;
+  font-weight: 500;
+  padding-left: 0.5rem;
+}
+.container-16 .sub-container-16 .container-16-card-3 .card-3-details p {
+  color: gray;
+  font-size: 0.7rem;
+  margin-top: 0.5rem;
+  padding-left: 0.5rem;
+}
+
+.container-17 .sub-container-17 {
+  display: flex;
+  padding: 10px;
+  margin-top: 2rem;
+  justify-content: space-evenly;
+}
+.container-17 .sub-container-17 .container-17-section-2 {
+  width: 50%;
+  height: 60vh;
+  padding: 10px;
+  margin-top: 2rem;
+}
+.container-17 .sub-container-17 .container-17-section-2 h3 {
+  color: darkslateblue;
+  font-size: 1rem;
+}
+.container-17 .sub-container-17 .container-17-section-2 h2 {
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  font-weight: 800;
+}
+.container-17 .sub-container-17 .container-17-section-2 p {
+  color: gray;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+.container-17 .sub-container-17 .container-17-section-2 .input-section {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 0.5rem;
+}
+#name {
+  padding: 10px;
+  width: 15vw;
+  margin-left: -12rem;
+  border-radius: 5px;
+  border: 2px solid rgba(55, 55, 55, 0.242);
+}
+#name:hover {
+  border: 2px solid black;
+  transition: all 0.3s ease-in-out;
+}
+
+#email {
+  padding: 10px;
+  margin-left: -10rem;
+  width: 15vw;
+  border-radius: 5px;
+  border: 2px solid rgba(55, 55, 55, 0.242);
+}
+
+#email:hover {
+  border: 2px solid black;
+  transition: all 0.3s ease-in-out;
+}
+
+#text-area {
+  margin-left: 1.2rem;
+  border-radius: 5px;
+  padding: 10px;
+  border: 2px solid rgba(55, 55, 55, 0.242);
+}
+#text-area:hover {
+  border: 2px solid black;
+  transition: all 0.3s ease-in-out;
+}
+.container-17 .sub-container-17 .container-17-section-2 button {
+  padding: 10px;
+  margin-left: 1.2rem;
+  width: 10vw;
+  border: none;
+  border-radius: 5px;
+  background-color: darkslateblue;
+  color: #fff;
+}
+.container-17 .sub-container-17 .container-17-section-2 button:hover {
+  background-color: rgb(45, 39, 90);
+  transition: all 0.3s ease;
+}
+.container-18 .sub-container-18 {
+  border: 2px solid black;
+  background-image: url(Images/bg-2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+.container-18 .sub-container-18 .footer-info-1 {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.container-18 .sub-container-18 .footer-info-1 .company-details .logo-section {
+  display: flex;
+  justify-content: space-evenly;
+}
+.container-18
+  .sub-container-18
+  .footer-info-1
+  .company-details
+  .logo-section
+  img {
+  width: 3vw;
+  height: 6vh;
+  margin-right: 10px;
+  border-radius: 10px;
+  margin-left: 2rem;
+  box-shadow: 2px 2px rgba(0, 0, 0, 0.207);
+}
+.container-18
+  .sub-container-18
+  .footer-info-1
+  .company-details
+  .logo-section
+  h1 {
+  margin-top: 5px;
+  font-size: 1.7rem;
+  font-weight: bold;
+  color: #fff;
+  width: 100%;
+}
+.container-18 .sub-container-18 .footer-info-1 .company-details p {
+  margin-top: 2rem;
+  margin-left: 2rem;
+  color: gray;
+  font-size: 0.9rem;
+  font-weight: 300;
+}
+.container-18 .sub-container-18 .footer-info-1 .quick-links ul {
+  list-style: none;
+  color: #fff;
+}
+.container-18 .sub-container-18 .footer-info-1 .quick-links ul li {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  color: gray;
+}
+#active-2 {
+  font-size: 1.2rem;
+  color: #fff;
+  font-weight: 700;
+}
+
+.container-18 .sub-container-18 .footer-info-1 .resources ul {
+  list-style: none;
+  color: #fff;
+}
+.container-18 .sub-container-18 .footer-info-1 .resources ul li {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  color: gray;
+}
+#active-3 {
+  font-size: 1.2rem;
+  color: #fff;
+  font-weight: 700;
+}
+.container-18 .sub-container-18 .footer-info-1 .newsletter {
+  margin-top: 5rem;
+  margin-right: 5rem;
+}
+#news-letter {
+  position: relative;
+  padding: 10px;
+  width: 17vw;
+  border: none;
+  border-radius: 20px;
+}
+.container-18 .sub-container-18 .footer-info-1 .newsletter button {
+  margin-left: -4.65rem;
+  position: absolute;
+  margin-top: 0.15rem;
+  border: none;
+  background-color: darkslateblue;
+  color: #fff;
+  border-radius: 20px;
+  padding: 8px;
+}
+.container-18 .sub-container-18 .footer-info-1 .newsletter button:hover {
+  background-color: rgb(36, 31, 69);
+}
+hr {
+  color: rgba(128, 128, 128, 0.5);
+  width: 80%;
+  margin-left: 10rem;
+  margin-bottom: 1rem;
+}
+
+.container-18 .sub-container-18 .social-media {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  color: #fff;
+}
+.container-18 .sub-container-18 .social-media .social i {
+  width: 40px;
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+.container-18 .sub-container-18 .social-media .social i:hover {
+  color: darkslateblue;
+  transition: all 0.3s ease-in-out;
+}
+.container-18 .sub-container-18 .social-media .developer b {
+  color: orange;
+  margin-left: 0.5rem;
+}
